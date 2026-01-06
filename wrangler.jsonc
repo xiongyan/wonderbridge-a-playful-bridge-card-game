@@ -4,7 +4,7 @@
  */
  {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "vite-reference",
+	"name": "wonder-bridge-4ktin8r2uzpxe5rcyspqp",
 	"main": "worker/index.ts",
 	"compatibility_date": "2025-04-24",
 	"assets": {
