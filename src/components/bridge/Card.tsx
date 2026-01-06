@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { CardData, Suit } from '@/lib/bridgeUtils';
-import { Club, Heart, Diamond, Spades } from 'lucide-react';
+import { Club, Heart, Diamond, Spade } from 'lucide-react';
 import { cn } from '@/lib/utils';
 interface CardProps {
   card: CardData;
@@ -15,10 +15,10 @@ const SuitIcon = ({ suit, className }: { suit: Suit; className?: string }) => {
     case 'Clubs': return <Club className={cn("fill-current", className)} />;
     case 'Hearts': return <Heart className={cn("fill-current text-red-500", className)} />;
     case 'Diamonds': return <Diamond className={cn("fill-current text-red-500", className)} />;
-    case 'Spades': return <Spades className={cn("fill-current", className)} />;
+    case 'Spades': return <Spade className={cn("fill-current", className)} />;
   }
 };
-export const Card: React.FC<CardProps> = ({ card, onClick, isFaceDown, className }) => {
+export const Card: React.FC<CardProps> = ({ card, onClick, isFaceDown, isDummy, className }) => {
   return (
     <motion.div
       layoutId={card.id}
