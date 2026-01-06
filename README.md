@@ -1,6 +1,6 @@
 # Wonder Bridge
 
-[![[cloudflarebutton]]](https://deploy.workers.cloudflare.com)
+[![[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/xiongyan/wonderbridge-a-playful-bridge-card-game)]](https://deploy.workers.cloudflare.com)
 
 A production-ready full-stack web application template powered by Cloudflare Workers and Pages. Features a modern React frontend with TypeScript, Tailwind CSS, shadcn/ui components, and a Hono-based API backend. Includes sidebar layout, theming, error boundaries, TanStack Query, and more.
 
@@ -87,7 +87,7 @@ bun run deploy
 This builds the app and deploys via Wrangler. Ensure `wrangler.jsonc` has your account ID (auto-detected after login).
 
 **Quick Deploy Button:**
-[![[cloudflarebutton]]](https://deploy.workers.cloudflare.com)
+[![[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/xiongyan/wonderbridge-a-playful-bridge-card-game)]](https://deploy.workers.cloudflare.com)
 
 **Manual Steps (Advanced):**
 
